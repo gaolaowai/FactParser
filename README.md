@@ -28,3 +28,4 @@ https://stackoverflow.com/questions/39763091/how-to-extract-subjects-in-a-senten
 
 Noting the above, I then started to explore the spaCy library, how it's used, and found that others have already created a coreference engine, https://github.com/huggingface/neuralcoref. This allows us to know, with a reasonable degree of accurracy, which subjects and objects are recurring in various sentences, so that we can map each topic to its supporting sentences (remember, while perfect mapping would be nice, we have to start *somewhere* first).
 
+So at this point, what is left is to create the associations between the "subjects" and their "objects" in a way that is queryable. That will be a challenge.
