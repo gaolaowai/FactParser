@@ -1,7 +1,8 @@
 ####################################################################################################
-##### Taken from 'spacy/examples/training/train_intent_parser.py'
-##### Will use as a model for parsing out the "WHO/WHAT/WHEN/WHERE/WHY/HOW/HOW MUCH" type questions,
-##### after they are parsed by the "neuralcoref" module.
+#####
+#####     Taken from 'spacy/examples/training/train_intent_parser.py'
+#####     Will use as a model for parsing out the "WHO/WHAT/WHEN/WHERE/WHY/HOW/HOW MUCH" type questions,
+#####     after they are parsed by the "neuralcoref" module.
 #####
 ####################################################################################################
 
