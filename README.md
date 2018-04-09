@@ -33,3 +33,6 @@ So at this point, what is left is to create the associations between the "subjec
 # Update ( January 22, 2018 ):
 * Working today on neuralcoref transforming paragraphs and updating sentences in place to reflect coreferences.
 * Found possible methodolgy for using spacy to classify parts of sentence from above step, which then can be used to create intents.json for use in other chatbot project (https://github.com/gaolaowai/Chatbot-Examples/tree/master/NN-key-lookup)
+
+# Update ( April 9, 2018):
+Research into this is still ongoing... while utilizing NLP deep learning networks, I've also been playing with integrating in some HTM theory (see Numenta and cortical.io), to provide a layer of relational inference between different vocabulary items. Code still isn't terriby publishable yet.
